@@ -27,3 +27,6 @@ names.unshift('Peter');
 
 //Para remover o primeiro elemento do array
 names.shift();
+
+//Para acessar o ultimo dado de qualquer array
+console.log(names2[names2.length - 1])
