@@ -33,3 +33,9 @@ let isShow = true;
 console.log(isShow.toString()); //'true'
 //ou
 console.log(String(isShow)); //'true'
+
+//converter uma string com um espaço para number
+let score2 = ' ';
+console.log(Number(score2)); // 0
+
+//Converter string vazia para boolean
