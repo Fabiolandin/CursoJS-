@@ -33,8 +33,8 @@ console.log(myString.toLowerCase()); // exibe 'this is javascript!'
 console.log(myString.concat(' And Python!')); // exibe 'This is JavaScript! And Python!'
 
 // trim
-const myString2 = ' This is JavaScript!';
-console.log(myString2.trim()); // exibe 'This is JavaScript!'
+const myString2 = ' This is JavaScript! ';
+console.log(myString2.trim()); // .trim() remove os espaços em ranco na frente e no final
 
 // split
 console.log(myString.split(' ')); // exibe ['This', 'is', 'JavaScript!']
