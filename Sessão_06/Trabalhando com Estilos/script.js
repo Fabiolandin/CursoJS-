@@ -19,3 +19,13 @@ titulo.classList.replace('text-slate-500', 'text-red-500');
 
 //ADICIONANDO UM HOVER AZUL NO INPUT NOME
 inputNome.classList.add('hover:bg-blue-700')
+
+//Adicionando métodos HTML no DOM
+let p1 = document.querySelector('#p2');
+let p2 = document.querySelector('#p3');
+
+//adicionando o texto em negrito com texto que ja estava na pagina
+p1.innerHTML = p1.innerHTML + " <strong> Adicionando negrito </strong>"
+
+//alterando a cor da palavra ALTERNATIVO
+p2.innerHTML = p2.innerHTML.replace('ALTERNATIVO', '<span class="text-red-500">ALTERNATIVO</span>')
