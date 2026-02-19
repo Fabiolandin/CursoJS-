@@ -2,9 +2,18 @@
 
 //Exemplo simples de seleção de um elemento com querySelector
 const elemento1 = document.querySelector('#paragrafo');
-elemento1.innerHTML = "ESTE ELEMENTO FOI MODIFICADO";
+elemento1.innerHTML = "ESTE SPAN FOI MODIFICADO";
 
 // # - Seleciona um elemento com o id
 // . - Seleciona um elemento com a classe
 const elemento2 = document.querySelector('.text-3xl');
 elemento2.innerHTML = "ESTE ELEMENTO FOI BUSCADO";
+
+//Alterando em massa os paragrafos
+const elemento3 = document.querySelectorAll('p');
+elemento3.forEach(elemento => {
+    elemento.innerHTML = "ESTES ELEMENTOS FORAM ALTERADOS EM MASSA!"
+    //ALTERANDO O FUNDO EM MASSA
+    elemento.classList.add("bg-sky-200");
+})
+
