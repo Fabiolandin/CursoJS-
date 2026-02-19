@@ -18,10 +18,10 @@ document.querySelector('input[name="nome"]').value = "João Ribeiro";
 document.querySelector('input[name="email"').focus();
 
 //Inserir a mesma senha nos inputs de senhas e confirmar senha
-let senha = "123456";
-document.querySelectorAll('input[type="password"]').forEach( input => {
-    input.value = senha;
-})
+//let senha = "123456";
+//document.querySelectorAll('input[type="password"]').forEach( input => {
+//    input.value = senha;
+//})
 
 function visualizarSenha(){
     let senhaInput = document.querySelector('#senha');
