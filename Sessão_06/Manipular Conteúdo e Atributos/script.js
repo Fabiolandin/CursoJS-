@@ -22,3 +22,19 @@ let senha = "123456";
 document.querySelectorAll('input[type="password"]').forEach( input => {
     input.value = senha;
 })
+
+function visualizarSenha(){
+    let senhaInput = document.querySelector('#senha');
+    if(senhaInput.type === "password"){
+        senhaInput.type = "text";
+    } else {
+        senhaInput.type = "password";
+    }
+}
+
+//Dar check em todas as checkboxes
+let checkboxes = document.querySelectorAll('input[type="checkbox"]')
+
+checkboxes.forEach( checkbox => {
+    checkbox.checked = true;
+})
